@@ -1,6 +1,5 @@
 def sort_array_asc
-  array.sort do |a,b|
-    a <=> b
+ string_array.sort_by { |string| string.length }
 end
 end
 
