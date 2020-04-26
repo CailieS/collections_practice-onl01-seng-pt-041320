@@ -16,16 +16,16 @@ sort_array_asc([25, 7, 1])
 def sort_array_desc(array)
     array.sort do |left, right|
     right <=> left
-  end
+  end 
 end
 
 sort_array_desc([25,7,14])
 
 
 def sort_array_char_count(array)
-  array.sort do |left, right|
-    {|x| x.length}
-  end
+    array.sort do |left, right|
+    left.length <=> right.length
+    end
 end
 
 sort_array_char_count(["Blake","Ashley","Scott"])
