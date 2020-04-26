@@ -31,9 +31,9 @@ end
 sort_array_char_count(["blake","ashley","scott"])
 
 
-def sort_array_swap_elements(array)
+def swap_elements(array)
   array = ["blake","ashley","scott"]
   array[1], array[2] = array[2], array [1]
   array
 end
-sort_array_swap_elements(["blake","ashley","scott"])
+swap_elements(["blake","ashley","scott"])
