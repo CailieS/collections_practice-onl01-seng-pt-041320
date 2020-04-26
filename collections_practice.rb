@@ -59,4 +59,4 @@ def find_a(array)
   end
 end
 
-find_a({})
+find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
