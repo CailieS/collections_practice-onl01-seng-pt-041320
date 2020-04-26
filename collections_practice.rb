@@ -6,9 +6,8 @@ def sort_array_asc
     -1
   elsif a > b
     1
- 
- end 
-end
+  end 
+ end
 end
 
 
