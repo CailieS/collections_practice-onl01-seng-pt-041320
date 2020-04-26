@@ -81,4 +81,4 @@ def add_s
   end
 end
 
-add_s(["cat","car","star","bar"])
+add_s(["hand","feet", "knee", "table"])
