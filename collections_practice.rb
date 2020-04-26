@@ -44,3 +44,11 @@ def reverse_array(array)
 end
 
 reverse_array(["blake","ashley","scott"])
+
+def kesha_maker(array)
+  array.each do |word|
+    word[2] = "$"
+end
+end
+
+kesha_maker(["blake","ashley","scott"])
