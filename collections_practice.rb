@@ -69,4 +69,4 @@ def sum_array
   sum
 end
 
-sum_array([3,6,9,12,15])
+sum_array([11,4,7,8,9,100,134])
