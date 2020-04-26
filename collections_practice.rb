@@ -53,3 +53,11 @@ end
 
 kesha_maker(["blake","ashley","scott"])
 
+
+def sum_array
+  sum = 0 
+  array.each do |num|
+    sum += num
+  end
+  sum
+end
