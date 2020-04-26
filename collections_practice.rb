@@ -11,5 +11,4 @@ def sort_array_asc
 end
 end
 
-sort_array_asc([16,24,3])
 
