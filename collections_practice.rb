@@ -53,11 +53,10 @@ end
 
 kesha_maker(["blake","ashley","scott"])
 
-
-def sum_array
-  sum = 0 
-  array.each do |num|
-    sum += num
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
   end
-  sum
 end
+
+find_a({})
