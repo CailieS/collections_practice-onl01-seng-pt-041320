@@ -1,6 +1,15 @@
-def sort_array_asc
-  sort_array_asc = [25, 7, 1]
- string_array.sort_by { |string| string.length }
+def sort_array_asc(array)
+  array = [25, 7 ,1]
+  array.sort do |a, b|
+  if a == b
+    0
+  elsif a < b
+    -1
+  elsif a > b
+    1
+ 
+ end 
+end
 end
 
 
