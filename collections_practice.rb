@@ -61,4 +61,12 @@ end
 
 find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
 
-def 
+def sum_array
+  sum = 0 
+  array.each do |num|
+    sum += num
+  end
+  sum
+end
+
+sum_array([3,6,9,12,15])
