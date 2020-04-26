@@ -7,10 +7,15 @@ def sort_array_asc(array)
     -1
   elsif a > b
     1
- 
   end 
  end
 end
 
-
 sort_array_asc([25, 7, 1])
+
+def sort_array_dsc(array)
+  array.sort do |left, right|
+    right <=> left
+  end
+end
+sort_array_dsc([4,11,8,2])
