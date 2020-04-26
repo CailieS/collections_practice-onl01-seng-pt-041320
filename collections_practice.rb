@@ -19,4 +19,5 @@ def sort_array_dsc(array)
     right <=> left
   end
 end
+
 sort_array_dsc([4,11,8,2])
