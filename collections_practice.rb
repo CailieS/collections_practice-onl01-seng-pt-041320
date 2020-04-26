@@ -19,4 +19,4 @@ def sort_array_desc(array)
   end
 end
 
-sort_array_dsc([25,7,14])
+sort_array_desc([25,7,14])
