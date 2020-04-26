@@ -24,7 +24,7 @@ sort_array_desc([25,7,14])
 
 def sort_array_char_count(array)
   array.sort do |left, right|
-    left.length <=> right.length
+    {|x| x.length}
   end
 end
 
