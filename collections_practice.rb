@@ -14,10 +14,9 @@ end
 sort_array_asc([25, 7, 1])
 
 def sort_array_dsc(array)
- 
-  array.sort do |left, right|
+    array.sort do |left, right|
     right <=> left
   end
 end
 
-sort_array_dsc([25,14,7])
+sort_array_dsc([25,7,14])
